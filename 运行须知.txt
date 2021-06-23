@@ -1,0 +1,10 @@
+开发环境：Eclipse，JDK1.8，Tomcat7.0，MySQL 5.6
+
+运行流程：
+	1、导入数据库：
+		在Navicat中登陆本地数据库，右键选择运行SQL文件，选择ajaxdb.sql文件，导入即可
+	2、运行项目：
+		<方法一>：在Eclipse中导入项目工程：File->Import->选择General下面的Existing Projects into Workspace->选择所要导入的路径->运行项目->访问
+		<方法二>：将项目AjaxProject.war包放入Tomcat的webapps文件下，在bin目录下运行startup.bat程序，即可在浏览器访问（推荐，更不容易出错）
+
+访问地址：http://localhost:8080/AjaxProject/index.html
